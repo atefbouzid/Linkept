@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="stylesheet" href="hub.css">
+  <title>LinkEPT</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="/Profile/Profile.html">LinkEPT</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="/Search/search.html"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;Rechercher</a></li>
+                <li><a href="/Profile/Profile.html"><i class="fa-solid fa-user"></i>&nbsp;Mon Profile</a></li>
+                <li><a href="/ProfileEdit/ProfleEdit.html"><i class="fa-solid fa-bars"></i></i>&nbsp;Modifier le résumé</a></li>
+                <li><a href="/Setting/settings.html"><i class="fa-solid fa-gear"></i>&nbsp;Paramètres</a></li>
+                <li><a href="login.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>&nbsp;Se déconnecter</a>
+      </ul>
+    </div>
+  </nav>
+  <div class="title">Bienvenu dans l'EptHUB</div>
+  <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+  <div class="container">
+    <div class="input-field">
+      <textarea type="text" placeholder="Votre publication" class="Post"></textarea>
+    </div>
+    <div class="auteur">
+      <textarea type="text" placeholder="Auteur" class="Auteur"></textarea>
+      <!-- <span> <h5 style="margin: auto;">Auteur : {autor name}</h5></span> -->
+    </div>
+    <br>
+    <div class="btn-publier">
+      <input class="btn-text" type="submit" value="Publier">
+    </div>
+  </div>
+  <div class="posts"> <span>Anciennes Publications<br></span></div>
+  <div class="latest">
+  </div>
+  </div>
+  </div>
+  <script src="hub.js"></script>
+</body>
+
+</html>

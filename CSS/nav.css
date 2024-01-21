@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .navtop {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+    padding: 10px;
+    transition: all 0.4s ease;
+  }
+  
+  .navtop div {
+    display: flex;
+    margin: 0 auto;
+    max-width: auto;
+    /* Change min-width to a smaller value */
+    min-width: 800px;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .navtop div h1 {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 35px;
+    color: #555273;
+    text-decoration: none;
+  }
+  
+  .navtop div a {
+    /* Increase left and right padding */
+    padding: 0 20px;
+    text-decoration: none;
+    color: #65799b;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  
+  .navtop div a i {
+    padding: 2px 8px 0 0;
+  }
+  
+  .navtop div a:hover {
+    color: #ecf0f6;
+  }
+  
+  .navtop.sticky {
+    position: fixed;
+    background: #65799b;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.041);
+  }
+  

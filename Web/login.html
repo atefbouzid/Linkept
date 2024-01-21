@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkEPT</title>
+    <link rel="stylesheet" type="text/css" href="/Linkept/CSS/login.css">
+
+</head>
+
+<body>
+
+    <body>
+        <img src="/Linkept/img/LinkEPT.png" alt="Linkept" class="img2">
+        <img src="/Linkept/img/EPT_logo_white.png" alt="Ecole Polytechnique de Tunisie" class="img">
+
+        <div id="bottom-right">
+
+            <p class="p1">
+                Créee par :
+                <br>
+                <br>Atef Bouzid
+                <br>Ahmed Ouertani
+                <br>Rayhane Ben Youssef
+                <br>Chaima Hammami
+                <br>Kmar Mezghani
+            </p>
+        </div>
+        <div class="container" id="container">
+
+
+            <div class="form-container login-container">
+                <form action="#">
+                    <h1>À propos</h1>
+                    <p class="parag">LinkEPT, Link pour dire lien et EPT on la connait tous, cette platforme consiste à
+                        garder le lien entre les anciens de l'école, les professeurs et les étudiants actuels. </p>
+                </form>
+            </div>
+            <div class="login">
+                <div class="form-container register-container">
+
+                    <form action="/Linkept/Web/authenticate.php" method="post">
+                        <h1>Connectez-vous ici</h1>
+                        <input type="text" name="CIN" id="CIN" placeholder="CIN" required>
+                        <input type="password" name="MOT_DE_PASSE" id="MOT_DE_PASSE" placeholder="Mot de passe">
+                        <div class="content">
+                            <div class="checkbox"> <input type="checkbox" name="checkbox" id="checkbox"> <label>Se
+                                    souvenir de moi</label>
+                            </div>
+                        </div>
+                        <button type="submit" value="Se connecter">Se connecter</button>
+                    </form>
+                </div>
+            </div>
+            <div class="overlay-container">
+
+                <div class="overlay">
+
+                    <div class="overlay-panel overlay-left">
+                        <h1 class="title1">Avec LinkEPT,<br> partagez et restez en contact avec votre entourage. </h1>
+                        <button class="ghost" id="register"> Savoir plus <i class="lni lni-arrow-left register"></i>
+                        </button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1 class="title">Bienvenue </h1>
+                        <p>Si vous avez un compte, connectez-vous ici .</p> <button class="ghost" id="login">Se
+                            connecter<i class="lni lni-arrow-right login"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/Linkept/JS/login.js"></script>
+    </body>
+</body>
+
+</html>
